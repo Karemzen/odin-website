@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+ul {
+    display: inline-block;
+    
+}
