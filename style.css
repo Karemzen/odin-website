@@ -1,3 +1,10 @@
+
+body {
+    margin: auto;
+    text-align: center;
+}
+/* Header*/
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -9,4 +16,99 @@
 ul {
     display: inline-block;
     
+}
+
+/* Top middle section */
+
+
+.image-one {
+    width: 300px;
+    height: 220px;
+}
+
+.middle-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+    background-color: #1f2937;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border: none;
+    color: white;
+}
+
+/* Middle middle section */
+
+.sri {
+    text-align: center;
+}
+
+.images {
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    border: red;
+    padding: 50px;
+    
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    border: rebeccapurple;
+}
+
+.under-box {
+    color: green;
+    max-width: 50%;
+}
+
+/* Miiddle Quoute*/
+
+.middle-quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    
+    align-items: center;
+    gap: 30px; 
+    justify-content: center;
+}
+
+.quote {
+    width: 50%;
+}
+.kiryu-quote {
+    font-size: 50px;
+    width: 100%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-name {
+    font-size: 25px;
+    width: fit-content;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    float: right;
 }
