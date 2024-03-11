@@ -112,3 +112,48 @@ button {
     display: flex;
     float: right;
 }
+
+/* Middle bottom*/
+
+
+.middle-bottom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+}
+.rectangle {
+    height: 250px;
+    width: 1200px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+  .sign-up {
+    border: 2px solid white;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .right-side-rectangle, .left-side-rectangle {
+    height: fit-content;
+  }
+
+  .left-side-rectangle {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 5px;
+  }
+
+  /* footer */
+  .footer {
+    background-color: #1f2937;
+    color: wheat;
+    padding: 37px;
+  }
